@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Frontend Mentor | Body Mass Index Calculator</title>
+    </head>
+    <body>
+        <main>
+            <section class="section-hero">
+                <div class="hero-container">
+                    <div class="hero-left">
+                        <div class="hero-left-content">
+                            <img
+                                src="assets/images/logo.svg"
+                                alt="blue circle hero icon"
+                                class="hero-icon"
+                            />
+                            <h1 class="heading-hero">
+                                Body Mass Index Calculator
+                            </h1>
+                            <p class="hero-description">
+                                Better understand your weight in relation to
+                                your height using our body mass index (BM)
+                                calculator. While BMI is not the sole
+                                determinant of a healthy weight, it offers a
+                                valuable starting point to evaluate your overall
+                                health and well-being. Enter your details below
+                                Metric Imperial Height Weight Your BMI is...
+                            </p>
+                        </div>
+
+                        <div
+                            class="hero-interactive-container grid grid--2-cols"
+                        >
+                            <p class="interactive-heading">
+                                Enter your details below
+                            </p>
+                            <div class="interactive-input-box">
+                                <p class="interactive-input-title">Height</p>
+                                <div class="interactive-input">
+                                    <input
+                                        type="text"
+                                        name="weight"
+                                        id="weight"
+                                        class="input"
+                                    />
+                                    <p class="unit">cm</p>
+                                </div>
+                            </div>
+                            <div class="interactive-input-box">
+                                <p class="interactive-input-title">Weight</p>
+                                <div class="interactive-input">
+                                    <input
+                                        type="text"
+                                        name="weight"
+                                        id="weight"
+                                        class="input"
+                                    />
+                                    <p class="unit">kg</p>
+                                </div>
+                            </div>
+                            <div class="interactive-result-box">
+                                <div>
+                                    <p class="result-title">Your BMI is...</p>
+                                    <p class="result-number">23.4</p>
+                                </div>
+                                <div>
+                                    <p class="result-description">
+                                        Your BMI suggests you're healthy weight. Your ideal
+                                        weight is between 64.2kgs - 85.2kgs.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- add score -->
+    </body>
+</html>
