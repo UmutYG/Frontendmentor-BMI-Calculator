@@ -1,0 +1,31 @@
+.section-your-result {
+    padding-bottom: 8rem;
+
+}
+
+.your-result-img {
+    height: 53rem;
+}
+
+.your-result-container {
+    max-width: 116rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.your-result-content {
+    align-self: end;
+    padding: 1.6rem 0;
+}
+
+.your-result-description {
+    font-size: 1.6rem;
+    color: var(--color-dark-electric);
+    line-height: 1.5;
+}
+
+.svg-curved--left {
+    position: absolute;
+    top: -5%;
+    right: 3%;
+}
