@@ -19,14 +19,16 @@
         <link rel="stylesheet" href="css/general.css" />
         <link rel="stylesheet" href="css/hero.css" />
         <link rel="stylesheet" href="css/your-result.css" />
+        <link rel="stylesheet" href="css/tips.css" />
+        <link rel="stylesheet" href="css/limitations.css" />
         <title>Frontend Mentor | Body Mass Index Calculator</title>
     </head>
     <body>
         <main>
             <section class="section-hero">
                 <div class="hero-container">
-                    <div class="hero-left">
-                        <div class="hero-left-content">
+                    <div class="hero-left ">
+                        <div class="hero-left-content container">
                             <img
                                 src="assets/images/logo.svg"
                                 alt="blue circle hero icon"
@@ -96,7 +98,7 @@
 
             <section class="section-your-result">
                 <div
-                    class="your-result-container grid grid--2-cols align-center"
+                    class="container your-result-container grid grid--2-cols align-center"
                 >
                     <img
                         src="assets/images/image-man-eating.webp"
@@ -123,6 +125,176 @@
                         <img
                             src="assets/images/pattern-curved-line-left.svg"
                             alt="Curved line to the left"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-tips">
+                <div class="tips-container grid grid--3-cols container">
+                    <div class="tip-box">
+                        <img
+                            class="tip-icon"
+                            src="assets/images/icon-eating.svg"
+                            alt="eating icon contains a cup"
+                        />
+                        <div class="tip">
+                            <h3 class="heading-tertiary tip-title">
+                                Healthy eating
+                            </h3>
+                            <p class="tip-description">
+                                Healthy eating promotes weight control, disease
+                                prevention, better digestion, immunity, mental
+                                clarity, and mood.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tip-box">
+                        <img
+                            class="tip-icon"
+                            src="assets/images/icon-exercise.svg"
+                            alt="eating icon contains a cup"
+                        />
+                        <div class="tip">
+                            <h3 class="heading-tertiary tip-title">
+                                Regular exercise
+                            </h3>
+                            <p class="tip-description">
+                                Exercise improves fitness, aids weight control,
+                                elevates mood, and reduces disease risk,
+                                fostering wellness and longevity.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tip-box">
+                        <img
+                            class="tip-icon"
+                            src="assets/images/icon-sleep.svg"
+                            alt="eating icon contains a cup"
+                        />
+                        <div class="tip">
+                            <h3 class="heading-tertiary tip-title">
+                                Adequate sleep
+                            </h3>
+                            <p class="tip-description">
+                                Sleep enhances mental clarity, emotional
+                                stability, and physical wellness, promoting
+                                overall restoration and rejuvenation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-limitations">
+                <div class="container limitations-container grid grid--3-cols">
+                    <div class="limitation-heading">
+                        <h2 class="heading-secondary">Limitations of BMI</h2>
+                        <p class="limitations-description">
+                            Although BMI is often a practical indicator of
+                            healthy weight, it is not suited for every person.
+                            Specific groups should carefully consider their BMI
+                            outcomes, and in certain cases, the measurement may
+                            not be beneficial to use.
+                        </p>
+                    </div>
+                    <div class="limitation-item limitation-item--gender">
+                        <div class="limitation-item-header">
+                            <img
+                                class="limitation-item-icon"
+                                src="assets/images/icon-gender.svg"
+                                alt="Icon that describes the race"
+                            />
+                            <p class="limitation-item-title">
+                                <strong>Gender</strong>
+                            </p>
+                        </div>
+                        <p class="limitation-item-description">
+                            Gender The development and body fat composition of
+                            girls and boys vary with age. Consequently, a
+                            child's age and gender are considered when
+                            evaluating their BMI.
+                        </p>
+                    </div>
+
+                    <div class="limitation-item-group limitation-item-group--1">
+                        <div class="limitation-item limitation-item--age">
+                            <div class="limitation-item-header">
+                                <img
+                                    class="limitation-item-icon"
+                                    src="assets/images/icon-age.svg"
+                                    alt="Icon that describes the race"
+                                />
+                                <p class="limitation-item-title">
+                                    <strong>Age</strong>
+                                </p>
+                            </div>
+                            <p class="limitation-item-description">
+                                In aging individuals, increased body fat and
+                                muscle loss may cause BMI to underestimate body
+                                fat content.
+                            </p>
+                        </div>
+                        <div class="limitation-item limitation-item--muscle">
+                            <div class="limitation-item-header">
+                                <img
+                                    class="limitation-item-icon"
+                                    src="assets/images/icon-muscle.svg"
+                                    alt="Icon that describes the race"
+                                />
+                                <p class="limitation-item-title">
+                                    <strong>Muscle</strong>
+                                </p>
+                            </div>
+                            <p class="limitation-item-description">
+                                BMI may misclassify muscular individuals as
+                                overweight or obese, as it doesn't differentiate
+                                muscle from fat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="limitation-item-group limitation-item-group--2">
+                        <div class="limitation-item">
+                            <div class="limitation-item-header">
+                                <img
+                                    class="limitation-item-icon"
+                                    src="assets/images/icon-pregnancy.svg"
+                                    alt="Icon that describes the race"
+                                />
+                                <p class="limitation-item-title">
+                                    <strong>Pregnancy</strong>
+                                </p>
+                            </div>
+                            <p class="limitation-item-description">
+                                Expectant mothers experience weight gain due to
+                                their growing baby. Maintaining a healthy
+                                pre-pregnancy BMI is advisable to minimise health
+                                risks for both mother and child.
+                            </p>
+                        </div>
+                        <div class="limitation-item">
+                            <div class="limitation-item-header">
+                                <img
+                                    class="limitation-item-icon"
+                                    src="assets/images/icon-race.svg"
+                                    alt="Icon that describes the race"
+                                />
+                                <p class="limitation-item-title">
+                                    <strong>Race</strong>
+                                </p>
+                            </div>
+                            <p class="limitation-item-description">
+                                Certain health concerns may affect individuals of
+                                some Black and Asian origins at lower BMIs than
+                                others. To learn more, it is advised to discuss this
+                                with your GP or practice nurse.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="svg-curved--right">
+                        <img
+                            src="assets/images/pattern-curved-line-right.svg"
+                            alt="Curved line to the right"
                         />
                     </div>
                 </div>

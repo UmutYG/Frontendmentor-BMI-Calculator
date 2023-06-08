@@ -1,0 +1,27 @@
+.section-tips {
+    padding: 9.6rem 0;
+}
+
+.tips-container {
+    padding: 8rem;
+    background: linear-gradient(
+        to left,
+        rgba(214, 230, 254, 0.3) 0%,
+        rgba(214, 252, 254, 0) 100%
+    );
+    border-radius: 35px;
+
+    
+}
+
+.tip-icon {
+    width: 6.4rem;
+    height: 6.4rem;
+    margin-bottom: 3.2rem;
+}
+
+.tip-description {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: var(--color-dark-electric);
+}
