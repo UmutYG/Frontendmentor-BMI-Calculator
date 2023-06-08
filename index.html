@@ -48,19 +48,28 @@
                             </p>
                         </div>
 
-                        <div
+                        <form
                             class="hero-interactive-container grid grid--2-cols"
                         >
                             <p class="interactive-heading">
                                 Enter your details below
                             </p>
+                            <div class="interactive-radio-box radio--active">
+                                <input type="radio" name="metric" id="metric">
+                                <label for="metric">Metric</label>
+                            </div>
+                            <div class="interactive-radio-box">
+                                <input type="radio" name="metric" id="imperial">
+                                <label for="imperial">Imperial</label>
+
+                            </div>
                             <div class="interactive-input-box">
                                 <p class="interactive-input-title">Height</p>
                                 <div class="interactive-input">
                                     <input
                                         type="text"
-                                        name="weight"
-                                        id="weight"
+                                        name="height"
+                                        id="height"
                                         class="input"
                                     />
                                     <p class="unit">cm</p>
@@ -91,7 +100,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -301,6 +310,8 @@
             </section>
         </main>
 
+
+        <script src="js/script.js"></script>
         <!-- add score -->
     </body>
 </html>
